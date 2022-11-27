@@ -1,0 +1,242 @@
+
+.navbar{
+    background-color: rgba(231, 236, 245, 0.4);
+    border-radius: 10px;
+    height: 70px;
+    width: 100%;
+}
+
+label.name{
+    line-height: 70px;
+    padding: 0 30px;
+    text-shadow: 6px 6px 20px rgb(218, 213, 213);
+    margin-left: 350px;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar li{
+        list-style-type: none;
+        color: white;
+        font-family: sans-serif;
+
+        display: inline-block;
+        line-height: 55px;
+        margin: 0 10px;
+
+
+}
+
+.navbar a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 6px 6px;
+    
+    border-radius: 5px;
+
+    font-size: 20px;
+}
+
+.navbar a:hover{
+    background-color: rgba(15, 7, 6, 0.534);
+}
+
+
+
+.quest{
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', cursive;
+    font-size: 60px;
+    text-shadow: 8px 8px 20px rgb(0, 0, 0);
+    
+    margin-top: 120px;
+}
+.welcome{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 50px;
+    text-shadow: 8px 8px 20px rgb(218, 77, 11);
+
+}
+.block {
+    margin-left: 600px;
+    display: block;
+    width: 20%;
+    border: solid #fff;
+    color: #fff;
+    background-color: aquamarine;
+    padding: 14px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: auto;
+  }
+.block:hover{
+    background: #FFA500;
+}
+.sec-width{
+    text-align: center;
+    margin: 0 auto!important;
+}
+.services{
+    margin-top: 500px;
+    margin: 40px 0;
+    color: #fff;
+    display: flex;
+    margin: 30px 0;
+}
+.title{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1.875 rem;
+    color: #fff;
+    border-bottom: 5px solid var(--dark);
+    width: 235px;
+    margin: 15px 0;
+    margin-left: 600px;
+}
+
+
+.tiles table{
+    margin: auto;
+    text-align: center;
+}
+.tiles table tr td{
+    transition: 1s;
+}
+.tiles table tr td a img{
+
+    transition: 1s;
+    height: 300px;
+    width: 350px;
+    box-shadow: 5px 5px 30px rgb(172, 169, 169);
+}
+.tiles table tr td:hover{
+    transform: scale(1.2);
+}
+
+.tiles table tr td p{
+    z-index: 2;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    text-align: center;
+    font-family: sans-serif;
+    text-shadow: 5px 5px 20px black;
+    background-color: rgba(245, 112, 112, 0.486);
+    margin-top: 0px;
+    text-align: center;
+    
+    width: 200px;
+    height: 50px;
+  
+ 
+    font-size: 25px;
+}
+
+.review{
+    background-color: rgba(0, 0, 0, 0.733);
+    height: 100%;
+    max-height:fit-content;
+    max-width: 100%;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 200px;
+
+}
+
+
+
+.rev{
+   width: 400px;
+   margin: auto;
+
+    
+}
+.review2{
+    background-color: rgba(118, 192, 235, 0.589);
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgb(63, 47, 4);
+}
+.review2 input{
+    width: 250px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+select{
+    width: 350px;
+    height: 35px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    margin-left: 125px;
+    background-color: rgba(0, 0, 0, 0.534);
+
+    color: white;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: rgba(151, 32, 32, 0.534);
+}
+
+/* booking form */
+fieldset{ border: 0;}
+
+.book{
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("../images/banner-img.jpg") center/cover no-repeat;
+    color: #fff;
+    padding: 40px 60px;
+    margin-top: 250px;
+}
+.book-form{
+    display: grid;
+}
+.form-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.book-form input[type = "submit"]{
+    margin: 18px 0 0 0;
+    background: var(--dark);
+    color: #fff;
+    border: 1px solid #fff;
+}
+.book-form label, .book-form input{
+    width: 100%;
+}
+.book-form label{
+    font-weight: 600;
+    word-spacing: 5px;
+    padding-bottom: 8px;
+}
+.book-form input:not(.btn){
+    margin: 4px 0 16px 0;
+    padding: 12px 15px;
+    border-radius: 5px;
+    font-size: 17px;
+    border: none;
+}
+.book-form input:focus{
+    outline: 0;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.4);
+}
+
+p{
+    text-align: center;
+}
+
